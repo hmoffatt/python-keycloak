@@ -25,8 +25,7 @@
 # internal Keycloak server ID, usually a uuid string
 
 import json
-from builtins import isinstance
-from typing import List, Iterable
+from collections import Iterable
 
 from keycloak.urls_patterns import URL_ADMIN_GROUPS_REALM_ROLES, \
     URL_ADMIN_GET_GROUPS_REALM_ROLES, URL_ADMIN_REALM_ROLES_ROLE_BY_NAME
